@@ -13,4 +13,3 @@ if n==5:
     print("Five")
 if n<1 or n>5:
     print("Invalid input")
-    
