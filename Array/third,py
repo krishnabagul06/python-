@@ -1,0 +1,24 @@
+# WAP to search a element in array 
+
+import array as arr
+a=arr.array("i",[ ])
+n=int(input("Enter the limit of array:"))
+print("Enter the elements of array:")
+
+for i in range(n):
+    x=int(input())
+    a.append(x)
+
+s=int(input("Enter the element to search:"))
+
+flag=0
+for m in a:
+    if m==s:
+        flag=1
+        break
+
+if flag==1:
+    print("Element found in array")
+else:
+    print("Element not found in array")
+
