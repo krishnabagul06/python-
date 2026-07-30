@@ -1,0 +1,7 @@
+# WAP to enter a number and print table of that number 
+
+n=int(input("Enter a number:"))
+i=1
+while i<=10:
+    print(n,"*",i,"=",n*i)
+    i+=1
